@@ -114,6 +114,7 @@
 												userInfo:nil];
 		@throw ex;
 	}
+	_minimumValue = minValue;
 }
 
 - (void)setStepValue:(double)stepValue
@@ -134,6 +135,7 @@
 												userInfo:nil];
 		@throw ex;
 	}
+	_maximumValue = maxValue;
 }
 
 - (void)setValue:(double)val
